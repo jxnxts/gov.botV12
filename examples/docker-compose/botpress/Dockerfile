@@ -1,3 +1,4 @@
-FROM botpress/server:GET_LATEST_FROM_DOCKERHUB
+FROM botpress/server:latest
+USER root
 WORKDIR /botpress
 CMD ["./bp"]
